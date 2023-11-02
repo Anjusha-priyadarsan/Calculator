@@ -6,13 +6,13 @@ function display(num)
 function clearAll()
 {
     output.value=" "
-    answer.innerHTML=" "
+    answer.value=" "
    
 }
 
 function evaluateExp()
 {
-    answer.innerHTML=eval(output.value)
+    answer.value=eval(output.value)
     
     
 }

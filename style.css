@@ -42,7 +42,7 @@ button{
 .orange{
     color: rgb(202, 103, 23); ;
 }
-input{
+.input-one{
     height: 50px;
     width: 100%;
     border: none;
@@ -51,13 +51,23 @@ input{
     font-size: 38px;
     text-align: right;
 }
-.label{
+.input-two{
     height: 50px;
     width: 100%;
     margin-top: 50px;
+    border: none;
+    background-color:rgb(35, 32, 32);
     color: white;
     font-size: 40px;
     text-align: right;
 
+}
+
     
+@media (width <= 740px) {
+    .main{
+       
+        margin-left: 0%;
+    
+    }
 }
